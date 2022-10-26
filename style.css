@@ -1,4 +1,91 @@
-body {background-color:tan;}
-h1{color:green;}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column 
+  {
+    float: left;
+    width: 50%;
+    text-align: left;
+  }
+
+  /*   specifics for column 1 to line up per user request */
+  #column1 
+  {
+    padding-left: 9rem; 
+    border: 1px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  body 
+  {
+      background-color:black;
+      font-family:arial;
+      color:white;
+      text-align: center;
+  }
+  
+  h1
+  {
+      color:grey;
+      font-family:verdana
+  }
+  
+  .maindiv 
+  {
+      background-color: white;
+      color: black;
+      width: 600px; 
+      border-radius: 25px;
+      text-align: center; 
+  }
+  
+  /*   position inputs to align with labels */
+  input
+  {
+    padding: 0%;
+  }
+  
+  /*   position years per user request */
+  #years 
+  {
+      padding:0%;
+  }
+
+  /*   position rate per user request */
+  #rate
+  {
+    margin: 0px;
+  }
+
+  /*   position results per user request */
+  .result 
+  {
+      text-align: left;
+      padding-left: 24%;
+      margin: 0;
+  }
+  
+    /*   position copyright per user request */
+  .copyright
+  {
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+      text-align: left;
+  }
+  
+  footer
+  {
+      padding-top: 12rem;
+  }
 
 
