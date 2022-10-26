@@ -31,6 +31,6 @@ function compute()
 // output value of slider 
 function updateRate() 
 {
-    var rateval = document.getElementById("rate").value;
+    var rateval = document.getElementById("rate").value + "%";
     document.getElementById("rate_val").innerText=rateval;
 }
